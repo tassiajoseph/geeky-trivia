@@ -4,7 +4,7 @@ Hello! My name is Tassia Joseph and I created the Geeky Trivia Food Edition. Thi
 *** HTML5
 *** JavaScript
 
-I wouldn't been able to complete this project if I didn't pour countless hours watching tutorials on YouTube; reading posts on sites like MDN Web Docs, W3Schools, Stack Overflow, Geeks For Geeks; and practicing with sample code. I completed this project on Friday, Dec 3, 2021 and I'm proud of what its become. 
+I wouldn't been able to complete this project if I didn't pour countless hours watching tutorials on YouTube; reading posts on sites like MDN Web Docs, W3Schools, Stack Overflow, Geeks For Geeks; and practicing with sample code. This project was assigned on Nov 22, 2021 and I completed this project on Friday, Dec 3, 2021 and I'm proud of what its become. 
 
 Thanks for reading!
 
