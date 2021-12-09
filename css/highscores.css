@@ -1,0 +1,22 @@
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.highScoresList {
+    font-size: 2.05rem;
+    margin-bottom: 1rem;
+    border-bottom: .25rem solid #46607b;
+    padding-bottom: 1rem;
+}
+
+.highScoresList:first-child {
+    border-top: .25rem solid #46607b;
+    padding-top: 1rem;
+}
+
+.highScoresList:hover {
+    transform: scale(1.025);
+}

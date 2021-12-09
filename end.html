@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats - Geeky Trivia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="container-focus">
+            <div id="end" class="justify-center flex-column">
+                <h3 class="text-center">Total Score</h3>
+                <form>
+                    <h1 id="finalScore" class="score">0</h1>
+                    <h4 class="text-center">Save your score!<br>Type your name below.</h4>
+                    <br>
+                    <input type="text" name="username" id="username" placeholder="type your username here">
+                    <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
+                </form>
+                <hr class="hr1">
+                <a id="playButton" class="btn" onclick="playIndexRedirect()">Play Again</a>
+                <a id="homeButton" onclick="homeRedirect()" class="btn">Go Home</a>
+            </div>
+        </div>
+    </div>        
+    
+
+    <!-- Final Page Script -->
+    <script src="js/endmusic.js"></script>
+    <script src="js/end.js"></script>
+    <script src="js/button-end.js"></script>
+</body>
+</html>
+
+

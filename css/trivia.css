@@ -1,0 +1,91 @@
+/*
+=============
+Trivia Styles
+=============
+*/
+
+.option-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.2rem solid #46607b;
+    background-color: #fff;
+    border-radius: 0.5rem 1rem 1rem 0.5rem;
+}
+
+.option-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #46607b;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.option-prefix {
+    padding:  1.5rem 2.5rem;
+    background-color: #46607b;
+    color: #fff;
+    border-radius: 0.1rem 4rem 4rem 0.1rem;
+}
+
+.option-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #31c753;
+}
+
+.incorrect {
+    background-color: #e71327;
+}
+
+/* HUD */
+
+#hud {
+    display: flex;
+    flex-direction: column;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 100%;
+    height: 4rem;
+    border: 0.3rem solid #813476;
+    margin: 0.5rem 0 3rem 0;
+    border-radius: 0.3rem;
+}
+
+#progressBarFull {
+    height: 3.4rem;
+    background-color: #813476;
+    width: 0%;
+}
+
+/* Loader */
+#loader {
+    border: 1.6rem solid #fff;
+    border-radius: 50%;
+    border-top: 1.6rem solid #46607b;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

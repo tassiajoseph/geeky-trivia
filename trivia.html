@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeky Trivia - Food and Drink Edition</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/trivia.css">
+</head>
+<body>
+    <div class="container">
+        <div id="container-focus">
+            <!-- page loader -->
+            <div id="loader"></div>
+            
+            <div id="trivia" class="justify-center flex-column hidden">
+            
+                <!-- Question Header -->
+                <div id="hud">
+
+                    <!-- Score -->
+                    <div id="hud-item" class="hud-score-item">
+                        <p class="hud-prefix">
+                            Score
+                        </p>
+                        <h1 class="hud-main-text score" id="score">
+                            0
+                        </h1>
+                    </div>
+
+                    <!-- Question Number -->
+                    <div id="hud-item">
+                        <p id="progressText" class="hud-prefix">
+                            Question
+                        </p>
+                        <div id="progressBar">
+                            <div id="progressBarFull"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Timer -->
+                <h3 id="countdownTimer"></h3>
+
+                <!-- Question -->
+                <h2 id="question" class="text-center"></h2>
+
+                <!-- Option 1 -->
+                <div class="option-container">
+                    <p class="option-prefix">A</p>
+                    <p class="option-text" data-number="1"></p>
+                </div>
+
+                <!-- Option 2 -->
+                <div class="option-container">
+                    <p class="option-prefix">B</p>
+                    <p class="option-text" data-number="2"></p>
+                </div>
+
+                <!-- Option 3 -->
+                <div class="option-container">
+                    <p class="option-prefix">C</p>
+                    <p class="option-text" data-number="3"></p>
+                </div>
+
+                <!-- Option 4 -->
+                <div class="option-container">
+                    <p class="option-prefix">D</p>
+                    <p class="option-text" data-number="4"></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Trivia Script -->
+    <script src="js/triviamusic.js"></script>
+    <script src="js/trivia.js"></script>
+
+</body>
+</html>
+
